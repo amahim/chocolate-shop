@@ -20,7 +20,7 @@
         }
       </script>
 </head>
-<body class="bg-white">
+<body class="bg-pink-200">
     <header>
         <!-- navbar -->
          <nav class="font-roboto bg-pink-200">
@@ -46,7 +46,7 @@
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-pink-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#53452b]">
                         <li><a>Home</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a>Trending</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Membership</a></li>
                     </ul>
@@ -56,7 +56,7 @@
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-[#53452b] font-medium">
                     <li><a>Home</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a>Trending</a></li>
                     <li><a>About Us</a></li>
                     <li><a>Membership</a></li>
                   </ul>
@@ -70,13 +70,40 @@
           <div class="banner font-roboto">
              <div class="flex flex-col md:gap-6  gap-4 items-center text-center md:py-[100px] py-20">
                 <h1 class="font-banner text-white md:text-5xl text-3xl">CHOCK THE CHOC</h1>
-                <p class="text-white w-4/5 md:w-2/4">Indulge in our handcrafted chocolates, made with love and the finest ingredients.Taste the difference today! Perfect for every occasion.</p>
-                <button class="btn glass text-white w-[150px] text-xl">BITE NOW!</button>
+                <p class="text-white w-4/5 md:w-2/4 md:font-medium">Indulge in our handcrafted chocolates, made with love and the finest ingredients.Taste the difference today! Perfect for every occasion.</p>
+                <button class="btn btn-outline rounded-full font-medium text-white w-[150px] text-xl">BITE NOW!</button>
              </div>
           </div>
     </header>
-    <main>
-
+    <main class="font-roboto py-20">
+        <!-- trending sec -->
+        <section class="w-4/5 mx-auto bg-pink-300 drop-shadow-xl flex md:flex-row flex-col rounded-xl">
+            <!-- text -->
+            <div class="md:w-[50%] flex flex-col gap-4 justify-center md:ml-2 md:items-start items-center text-center md:text-left mt-10 md:mt-0">
+                <h3 class="font-bebas text-black md:text-3xl text-xl font-bold">Valentines Day Special</h3>
+                <p class=" text-[#2c2b2baf] font-medium md:w-full w-[90%]">This upcoming valentine don't forget to gift our chocoballs to your special one or two or maybe three!</p>
+                <button class="btn btn-outline text-black border-white w-[150px]">
+                    GIFT NOW!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      color="#000000"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </button>
+            </div>
+            <!-- img -->
+            <div class="md:w-[55%]  mt-10 md:mt-0">
+                <img src="./images/valentines.jpg" alt="" class="rounded-xl">
+            </div>
+        </section>
     </main>
     <footer>
 
