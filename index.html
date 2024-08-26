@@ -451,7 +451,67 @@
             </div>
         </section>
         <!-- custom file input contact range-->
-        
+        <section class="w-4/5 md:w-2/4 mx-auto border-2 border-pink-600 mt-20 rounded-xl bg-pink-300 md:p-6 py-4">
+          <!-- text -->
+          <div class="flex flex-col gap-3 items-center ">
+            <h3 class="font-bebas text-black md:text-3xl text-xl font-bold">Custom Order</h3>
+            <p class=" text-[#2c2b2baf] font-medium md:w-2/4 text-center">Customize what you want!Just fill the form below!</p>
+         </div >
+          <!-- info -->
+           <div class="grid grid-cols-1 md:grid-cols-2 text-center gap-4 mt-10">
+            <div>
+              <input type="text" placeholder="Your Name"
+                  class="input input-bordered input-secondary w-full max-w-xs" />
+            </div>
+            <div>
+              <input type="email" placeholder="Your Email"
+                  class="input input-bordered input-secondary w-full max-w-xs" />
+            </div>
+            <div>
+              <input type="number" placeholder="Phone Number"
+                  class="input input-bordered input-secondary w-full max-w-xs" />
+            </div>
+            <select class="select select-secondary w-full max-w-xs ml-[8px] md:ml-[1px]">
+              <option disabled selected>Set Weight</option>
+              <option>400 gm</option>
+              <option>650 gm</option>
+              <option>800 gm</option>
+              <option>1 Kg</option>
+            </select>
+           </div>
+           <!-- range -->
+           <div class=" mt-5 space-y-2 flex flex-col items-center justify-center">
+            <div>
+              <p class="text-gray-700 font-medium">Set Bugget Range:</p>
+            </div>
+            <div class="w-4/5 md:w-2/4">
+              <input type="range" min="0" max="100" value="25" class="range" step="25"  />
+              <div class="flex w-full justify-between px-2 text-xs">
+                <span><p class="text-black">>20$</p></span>
+                <span><p class="text-black">>50$</p></span>
+                <span><p class="text-black">>100$</p></span>
+                <span><p class="text-black">>250$</p></span>
+              </div>
+            </div>
+           </div>
+           <!-- toggle -->
+           <div class=" flex justify-center items-center mt-5">
+            <div class="form-control w-52">
+              <label class="label cursor-pointer">
+                <span class="label-text text-gray-700 font-medium">Chef's Freedom</span>
+                <input type="checkbox" class="toggle toggle-secondary" checked="checked" />
+              </label>
+            </div>
+          </div>
+          <!-- file -->
+           <div class="mt-5 flex flex-col gap-2 items-center justify-center">
+            <div><p class="text-gray-700 font-medium">Drop an image of the design</p></div>
+            <input type="file" class="file-input file-input-bordered file-input-secondary w-full max-w-xs" />
+           </div>
+           <div class="mt-5 flex items-center justify-center">
+            <button type="submit" class="btn btn-outline text-pink-500 border-pink-500">SUBMIT</button>
+           </div>
+        </section>
         
     </main>
     <footer class="bg-pink-500">
